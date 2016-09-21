@@ -40,6 +40,7 @@ function parseText(text) {
         "who am i",
         "David rocks",
         "stop",
+        "how are you?",
       ]
       var response = responses[Math.floor(Math.random()*responses.length)];
       gameOutput.html(response);    
@@ -49,7 +50,8 @@ function parseText(text) {
 
     case "show me a dog": 
     case "show me a picture of a dog": 
-    case "show me a dog": 
+    case "show me a puppy": 
+    case "show me a picture of a puppy": 
       var stuff = '<img id="imagedog" src="http://www.dogster.com/wp-content/uploads/2015/05/bernese-mountain-dog-puppies-04.jpg"/>'
       console.log(stuff)
       gameOutput.html(stuff);
