@@ -25,6 +25,9 @@ function parseText(text) {
       break;
 
     case "what's your name": 
+    case "whats your name": 
+    case "what is your name":
+    case "what's your name?": 
     case "what is your name":
       gameOutput.html("bob!");
       break;
