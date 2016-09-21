@@ -28,11 +28,13 @@ function parseText(text) {
     case "whats your name": 
     case "what is your name":
     case "what's your name?": 
-    case "what is your name":
+    case "what is your name?":
+    case "whats your name?": 
       gameOutput.html("bob!");
       break;
 
     case "random":
+    case "show me something random":
       var responses = [
         "IDK",
         "who am i",
@@ -45,6 +47,8 @@ function parseText(text) {
 
 
 
+    case "show me a dog": 
+    case "show me a picture of a dog": 
     case "show me a dog": 
       var stuff = '<img id="imagedog" src="http://www.dogster.com/wp-content/uploads/2015/05/bernese-mountain-dog-puppies-04.jpg"/>'
       console.log(stuff)
