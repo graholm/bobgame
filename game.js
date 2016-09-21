@@ -17,10 +17,16 @@ function parseText(text) {
   switch (text) {
 
     case "hello":
+    case "Hello":
+    case "hi":
+    case "Hi":
       gameOutput.html("HI!");
       break;
 
     case "hey":
+    case "Hey":
+    case "hey!":
+    case "heyyy":
       gameOutput.html("heyyy!");
       break;
 
@@ -40,7 +46,7 @@ function parseText(text) {
         "who am i",
         "David rocks",
         "stop",
-        "how are you?",
+
       ]
       var response = responses[Math.floor(Math.random()*responses.length)];
       gameOutput.html(response);    
